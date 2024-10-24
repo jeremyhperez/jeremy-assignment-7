@@ -49,13 +49,6 @@ public class CustomArrayList<T> implements CustomList<T> {
 		return true;
 	}
 
-//	public void set(int i, T t) {
-//		if (index < 0 || index >= size) {
-//			throw new IndexOutOfBoundsException("Index " + index + " is out of bounds");
-//		}
-//		items[index] = item;
-//	}
-
 	private int size() {
 		return size;
 	}
